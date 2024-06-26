@@ -92,7 +92,7 @@ Das Skript führt die folgenden Schritte automatisch aus:
 [Konfiguration]
 Damit die Wings vollständig laufen müssen sie selber noch die Wings Konfigurieren.
 Gehen sie dafür auf die Website des Panels und erstellen sie ein neues Node.
-In dem Tab des nodes sollte ein weiterer Tab zu finden sein namens Configuration.
+In dem Tab des nodes sollte ein weiterer Tab zu finden sein namens Configuration File.
 Kopieren sie diese File in das verzeichnis /etc/pelican/config.yml
 
 Das Skript führt die folgenden Schritte automatisch aus:
