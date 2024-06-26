@@ -18,3 +18,5 @@ sudo apt install -y python3-certbot-nginx
 # Zertifikate für die angegebenen Domains erstellen
 sudo certbot certonly --nginx -d "$PANEL_DOMAIN"
 sudo certbot certonly --nginx -d "$WINGS_DOMAIN"
+
+echo "Certificat wurde erstellt sie können nun mit der Installation des Panels beginnen!"
