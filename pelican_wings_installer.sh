@@ -53,3 +53,5 @@ EOL
 
 # Wings-Dienst aktivieren und starten
 sudo systemctl enable --now wings
+
+echo "Pelican Wings Installation abgeschlossen"
