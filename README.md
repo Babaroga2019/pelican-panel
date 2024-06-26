@@ -15,7 +15,7 @@ Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 1. Klonen Sie dieses Repository oder kopieren Sie das Skript auf Ihren Server.
 
     ```bash
-    wget https://github.com/Babaroga2019/pelican-panel/pelican_panel_installer.sh
+    wget https://raw.githubusercontent.com/Babaroga2019/pelican-panel/main/pelican_panel_installer.sh
     ```
 
 2. Machen Sie das Skript ausführbar:
