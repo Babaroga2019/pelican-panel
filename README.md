@@ -12,6 +12,28 @@ Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 ## Installationsanleitung
 
+[WARNUNG] Wenn sie eine Domain mit https:// verwenden müssen sie vorher sie vorher SSL Certificate erstellen:
+
+1. Klonen Sie dieses Repository oder kopieren Sie das Skript auf Ihren Server.
+
+    ```bash
+    wget https://raw.githubusercontent.com/Babaroga2019/pelican-panel/main/ssl_certificate.sh
+    ```
+
+2. Machen Sie das Skript ausführbar:
+
+    ```bash
+    chmod +x ssl_certificate.sh
+    ```
+
+3. Führen Sie das Skript als Root-Benutzer aus:
+
+    ```bash
+    sudo ./ssl_certificate.sh
+    ```
+
+[Panel Installer]
+
 1. Klonen Sie dieses Repository oder kopieren Sie das Skript auf Ihren Server.
 
     ```bash
