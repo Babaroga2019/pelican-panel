@@ -70,6 +70,39 @@ Das Skript führt die folgenden Schritte automatisch aus:
 14. Aktiviert die neue NGINX-Site-Konfiguration durch Erstellung eines symbolischen Links.
 15. Startet NGINX neu, um die Änderungen zu übernehmen.
 
-## NGINX-Konfiguration
+## Wings Installation
 
-Die NGINX-Konfiguration für Pelican wird in der Datei `/etc/nginx/sites-available/pelican.conf` erstellt.
+1. Klonen Sie dieses Repository oder kopieren Sie das Skript auf Ihren Server.
+
+    ```bash
+    wget https://raw.githubusercontent.com/Babaroga2019/pelican-panel/main/pelican_wings_installer.sh
+    ```
+
+2. Machen Sie das Skript ausführbar:
+
+    ```bash
+    chmod +x pelican_wings_installer.sh
+    ```
+
+3. Führen Sie das Skript als Root-Benutzer aus:
+
+    ```bash
+    sudo ./pelican_wings_installer.sh
+
+[Konfiguration]
+Damit die Wings vollständig laufen müssen sie selber noch die Wings Konfigurieren.
+Gehen sie dafür auf die Website des Panels und erstellen sie ein neues Node.
+In dem Tab des nodes sollte ein weiterer Tab zu finden sein namens Configuration.
+Kopieren sie diese File in das verzeichnis /etc/pelican/config.yml
+
+Das Skript führt die folgenden Schritte automatisch aus:
+
+1. Überprüft den Provider.
+2. Installiert Docker.
+3. Startet Docker.
+4. Aktiviert SWAP.
+5. Erstellt das Verzeichnis `/var/run/wings`.
+6. Installiert Wings.
+7. Setzt die richtigen Berechtigungen
+8. Installiert die PHP-Abhängigkeiten mit Composer.
+9. Fügt eine System-Routine ein zum Starten von den Wings.
