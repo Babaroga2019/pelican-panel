@@ -5,7 +5,7 @@ Dieses Skript installiert und konfiguriert das Pelican Panel auf einem Ubuntu-Se
 ## Voraussetzungen
 
 Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-- Ein Ubuntu-Server (getestet mit Ubuntu 20.04/22.04)
+- Ein Ubuntu-Server (getestet mit Ubuntu 24.04/22.04)
 - Root-Zugriff auf den Server
 - Eine gültige Domain (z.B. `panel.project-zeta.de`)
 - SSL-Zertifikate für Ihre Domain (können mit Let's Encrypt erstellt werden)
